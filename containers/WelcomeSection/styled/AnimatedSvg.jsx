@@ -43,7 +43,7 @@ export default function AnimatedSvg(){
             <motion.g variants={rectVariants} initial="hidden" animate="visible">
                 <rect x="178.43901" y="59.71015" width="28" height="28" fill="#ff6363"/>
             </motion.g>
-            <motion.g variants={pathVariants} transition={{duration: 20, repeat: Infinity, ease: "easeIn"}} initial="hidden" animate="visible">
+            <motion.g variants={pathVariants} initial="hidden" animate="visible">
                 <path d="M282.21951,296.76953h-34v-34h34Zm-32.52174-1.47826h31.04348V264.24779H249.69777Z" transform="translate(-58.78049 -225.05938)" fill="#3f3d56"/>
             </motion.g>
         </g>
@@ -51,7 +51,7 @@ export default function AnimatedSvg(){
             <motion.g variants={rectVariants} initial="hidden" animate="visible">
                 <rect x="108.80838" y="374.61657" width="28" height="28" transform="translate(403.98758 -61.23638) rotate(74.06317)" fill="#ff6363"/>
             </motion.g>
-            <motion.g variants={pathVariants} transition={{duration: 20, repeat: Infinity, ease: "easeOut"}} initial="hidden" animate="visible">
+            <motion.g variants={pathVariants} initial="hidden" animate="visible">
             <path d="M133.24341,417.87594l-9.33563-32.69321,32.69321-9.33564,9.33563,32.69321Zm-7.50829-31.67767,8.52384,29.85032,29.85032-8.52383-8.52384-29.85033Z" transform="translate(-58.78049 -225.05938)" fill="#3f3d56"/>
             </motion.g>
         </g>
@@ -59,7 +59,7 @@ export default function AnimatedSvg(){
             <motion.g variants={rectVariants} initial="hidden" animate="visible">
                 <rect x="118.48664" y="239.04858" width="28" height="28" transform="translate(349.04671 103.9752) rotate(133.06281)" fill="#ff6363"/>
             </motion.g>
-            <motion.g variants={pathVariants} transition={{duration: 20, repeat: Infinity, ease: "easeInOut"}} initial="hidden" animate="visible">
+            <motion.g variants={pathVariants} initial="hidden" animate="visible">
                 <path d="M112.78106,277.063l23.21519-24.8406,24.84059,23.21519-23.21518,24.84059Zm23.28586-22.75121-21.19647,22.68054L137.551,298.18876l21.19647-22.68054Z" transform="translate(-58.78049 -225.05938)" fill="#3f3d56"/>
             </motion.g>
         </g>

@@ -6,4 +6,5 @@ export default styled.div`
     left: 10%;
     width: 100px;
     height: 100px;
+    z-index: 15;
 `;

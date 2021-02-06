@@ -10,13 +10,12 @@ import Text from './styled/Text';
 
 export default function Menu(){
     const [menuIsOpen, setMenuIsOpen] = useContext(MenuContext);
-    const  [section, setSection] = useContext(SectionContext);
+    const [section, setSection] = useContext(SectionContext);
     
 
     return(
-        <Wrapper display={menuIsOpen} initial={{opacity: 0, x: 0}} animate={menuIsOpen ? {opacity: 1, x: 0} : {opacity: 0, x: 200}}>
+        <Wrapper display={menuIsOpen} initial={{ x: 600, opacity: 0}} animate={menuIsOpen ? {opacity: 1, x: 0} : { x: 600, opacity: 0}} transition={{duration: 0.4, spring: 0}}>
             <Text section={section === 'About'}>About</Text>
-            <Text section={section === 'Technologies'}>Technologies</Text>
             <Text section={section === 'Experience'}>Expierience</Text>
             <Text section={section === 'Projects'}>Projects</Text>
             <Text section={section === 'Contact'}>Contact</Text>

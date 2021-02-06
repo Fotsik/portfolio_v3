@@ -9,7 +9,6 @@ import WelcomeSection from '../WelcomeSection';
 import ContactSection from '../ContactSection';
 import ExperienceSection from '../ExperienceSection';
 import ProjectsSection from '../ProjectsSection';
-import TechnologiesSection from '../TechnologiesSection';
 
 import Menu from '../../components/Menu';
 
@@ -30,7 +29,6 @@ export default function LandingPage(){
             <ProgressIndicator/>
             <WelcomeSection/>
             <AboutSection/>
-            <TechnologiesSection/>
             <ExperienceSection/>
             <ProjectsSection/>
             <ContactSection/>

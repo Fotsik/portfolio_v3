@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 export default styled(motion.div)`
     z-index: 10;
-    position: ${props => props.display ? 'fixed' : 'static'};
-    display: ${props => props.display ? 'flex' : 'none'};
+    position: fixed;
+    display: flex;
     right: 0;
     width: 450px;
     height: 100vh;
